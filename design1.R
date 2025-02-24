@@ -1,3 +1,7 @@
+#
+#   Want black background with lines shooting out from middle??
+#
+# libraries ---------------------------------------------------------------
 
 
 library(tidyverse)
@@ -45,4 +49,4 @@ ggplot(lines_df) +
 ggsave(filename = "design.png", width = 6, height = 6, dpi = 300)
 
 
-
+# -------------------------------------------------------------------------
